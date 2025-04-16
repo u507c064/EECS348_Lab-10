@@ -68,7 +68,7 @@ std::vector<std::string> loadLines(const std::string& filename) {
     return lines;
 }
 
-// Parse the string as a double (though not used in this lab task)
+// Parse the string as a double 
 double parse_number(const std::string &expression) {
     return std::stod(expression);
 }
